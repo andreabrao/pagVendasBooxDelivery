@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      text-align: center;
+      padding: 1.5em 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      max-height: 150px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    h2 {
+      color: #1c1c1c;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    section {
+      margin: 2em;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1.5em;
+      font-size: 1.2em;
+      position: relative;
+    }
+
+    
+    footer {
+      background-color: #1c1c1c;
+      color: #fff;
+      text-align: center;
+      padding: 1.5em 0;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .image-section {
+      flex: 1;
+      margin: 2em;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .pricing-section {
+      flex: 1;
+      margin: 2em;
+    }
+
+    .customer-section {
+      margin: 2em;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease;
+    }
+
+        .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366; /* WhatsApp Green */
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      header img {
+        max-height: 100px;
+      }
+
+      header {
+        padding: 1em;
+      }
+
+      section {
+        margin: 1em;
+      }
+
+      .content {
+        flex-direction: column;
+      }
+    }
+
+    section:hover,
+    header:hover,
+    footer:hover {
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
+  <title>Boox Lanches - O seu sistema de delivery</title>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo">
+    <h1>O seu delivery dos sonhos em um só app</h1>
+    <p>Boox Delivery | Facilitando a rotina da sua lanchonete.</p>
+  </header>
+ 
+<a href="https://boxslanches.glideapp.io/dl/de6ccd">Modelo de apresentação | é a base do se delivery!</a>
+
+ 
+  <section class="features-section" id="features">
+    <h2>Descubra as Funcionalidades<br>(PLANO BUSINESS)</h2>
+    <p>Transforme a experiência do seu cliente e simplifique a gestão da sua lanchonete com as poderosas funcionalidades do Boox Lanches.</p><br>
+    <ul>
+      <li style="font-size:35px;"><strong>O seu cliente</strong></li>
+      <li><strong>Login:</strong> Cadastre-se para uma experiência personalizada e rápida.</li>
+      <li><strong>Carrinho:</strong> Adicione seus itens favoritos ao carrinho e finalize seu pedido com facilidade.</li>
+      <li><strong>Cardápio:</strong> Explore o menu do restaurante para descobrir deliciosas opções.</li><br>
+      <li style="font-size:35px;"><strong>Para você ADM</strong></li>
+      <li><strong>Login ADM via e-mail:</strong> Acesse o sistema de gerenciamento com segurança, utilizando seu e-mail.</li>
+      <li><strong>PINCODE via e-mail:</strong> Receba seu pincode exclusivo por e-mail para autenticação. Automaticamente um novo pincode é gerado toda vez que o AMD efetua um login na plataforma.</li>
+      <li><strong>Gerenciador de Cupons:</strong> Crie e gerencie cupons promocionais para engajar seus clientes.</li>
+      <li><strong>Categorias:</strong> Organize seu cardápio com categorias intuitivas e atrativas.</li>
+      <li><strong>Produtos:</strong> Gerencie facilmente seus produtos, atualizando informações.</li>
+      <li><strong>Seus clientes:</strong> Veja detalhes dos usuários para entender melhor suas preferências e necessidades.</li>
+      <li><strong>Sistema de mensagens:</strong> Estabeleça uma comunicação eficiente com clientes através do sistema de mensagens.</li>
+      <li><strong>Pedidos direto no whatsapp:</strong> Receba seu pedidos do seu delivery com mensagens personalizadas direto no seu número do whatsapp.</li>
+      <li><strong>E com direito a novas funcionalidades:</strong> Quando a plataforma atualizar você receberá todos as novas funcionalidades dessa atualização.</li>
+    </ul>
+  </section>
+  
+  <section class="features-section" id="features">
+    <h2>Quais funcionalidades o software não tem(Independente do plano escolhido)</h2>
+    <p>Leia se atentando nos pontos e comparandos para tomar uma decisão</p><br>
+    <ul>
+      <li><strong>• Não tem função de acompanhar pedidos.</strong></li>
+      <li><strong>• Não tem função de checkout de pagamentos.</strong> Más o cliente poderá escolher entre pix ou dinheiro ao finalizar o pedido no whatsapp do estabelecimento.<li>
+      <li><strong>• Não tem função de dachshund e relatórios.</strong></li>
+      <li><strong>• Não tem função o dachshund do motoboy.</strong> O estabelecimento não tem nem uma função relacionado ao motoboy, exceto na parte de finalização do pedido do cliente</li>
+      <li><strong>• Não tem função de disponibilidade de produtos.</strong></li>
+      <li><strong>• Não tem função de adicionais aos pedidos.</strong></li>
+      <li><strong>ALGUMA DESSAS FUNÇÕES QUE NÃO ESTÃO DISPONÍVEIS NA PLATAFORMA, TEM CHANCES DE SEREM IMPLANTADAS.</strong></li>
+    </ul>
+  </section>
+  
+    <section >
+      <h2>O nosso cliente ideal!</h2>
+      <p><strong>• Estabelecimentos em cidades pequenas</strong><br>
+      <p><strong>• Estabelecimentos com grande visão empreendedora</strong><br>
+      <p><strong>• Estabelecimentos que buscam praticidade em seu atendimento</strong></p>
+      <p><strong>Deu math?</strong> Então a Boox Lanches é a escolha certa.</p>
+    </section>
+
+  <div class="content">
+    <div class="image-section">
+      <img src="planos.png" alt="Imagem de Fundo">
+    </div>
+
+    <section class="pricing-section" id="pricing">
+      <h2>Planos e Preços</h2>
+      <p>Escolha o plano que se adapta às suas necessidades, e nos chame via WhatsApp para conhecer melhor o plano escolhido para fecharmos negocios.</p>
+      <p><strong>OS PREÇOS SÃO PROMOCIONAIS, E APARTIR DO MÊS FEVEREIRO DE 2024 IRÁ VOLTAR AO NORMAL</strong></p>
+      <ul>
+        <li><strong>Free</strong><br>Cadastro da loja gratuito, Cadastro limitado de novos produtos no máximo 50, 30 minutos de suporte por dia e 1 slot pra o seu estabelecimento.<br>
+          Com direito a funcionalidades padrão(Do plano free).<br>
+          O próprio estabelecimento deverá ter sua própria frota de motoboys, o app Boox Lanches não disponibiliza as begs.</li>
+        <li><strong>Start - R$29,50/mês</strong><br>Cadastro da loja gratuito, Cadastro limitado de novos produtos no máximo 250, 2 horas de suporte pôr dia e 1 slot pra o seu estabelecimento.<br>
+          Com direito a funcionalidades padrão(do plano start).<br>
+          O próprio estabelecimento deverá ter sua própria frota de motoboys, o app Boox Lanches não disponibiliza as begs.</li>
+        <li><strong>Business - R$39,50/mês</strong><br>Cadastro da loja gratuito, Cadastro limitado de novos produtos no máximo 250, 4 horas de suporte por dia e 1 slot pra o seu estabelecimento.<br>
+          Com direito a funcionalidades novas, quando a plataforma se atualizar(Para o plano business).<br>
+          O próprio estabelecimento deverá ter sua própria frota de motoboys, o app Boox Lanches não disponibiliza as begs.</li>
+        <li>Empresarial - Entre em Contato (41) 9 9805-4350</li>
+        <li>E ai empreendedor? Acho interessante e que saber mais dos planos da boox Lanches? Não deixe de sanar as suas dúvidas, clique no botão pulsante do meu whatsapp para que eu possa te ajudar.</li>
+      </ul>
+    </section>
+  </div>
+  
+  <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp" onclick="window.open('https://wa.me/qr/AB3RLY64QY6AB1');">
+      <img src="zap.png" alt="WhatsApp">
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Boox Delivery. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
